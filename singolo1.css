@@ -1,0 +1,32 @@
+html {
+  font-size: 10px;
+}
+.wrapper {
+    max-width: 1020px;
+  width: 1020px;
+  justify-self: center;
+  margin: auto;
+}
+.heading_main {
+  background-color: black;
+}
+h1 {
+  display: inline-block;
+  background-color: black;
+}
+.header__navigation {
+  background-color: black;
+}
+li {
+  display: inline;
+  float: right;
+}
+.button left_button {
+  background: url(assets/chev.svg);
+}
+.logo_simple {
+  color: white;
+}
+.logo_colored {
+  color: red;
+}
