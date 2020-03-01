@@ -69,7 +69,7 @@ li {
   display: inline-block;
 }
 
-a {
+.nav_link {
 
   border-radius: 5px;
   border: solid 1px #767e9e;
@@ -85,7 +85,7 @@ a {
 }
 
 
-a:hover, a:focus {
+.nav_link:hover, .nav_link:focus {
   border-color: #fff;
   cursor: pointer;
   color: #fff;
@@ -150,4 +150,6 @@ text-align: left;
   font-weight: 300;
  }
 
-
+.about_links {
+  display: inline-flex;
+}
