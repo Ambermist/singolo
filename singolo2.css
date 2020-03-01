@@ -114,9 +114,13 @@ img {
   border-bottom: solid 6px #ffffff;;
 }
 .three-column-layout {
+  margin-left: 20px;
   padding: 43px 21px;
   display: flex;
   justify-content: space-evenly;
+}
+.person_first, .person_second, .person_third {
+  width: 33.33%;
 }
 h2 {
   font-family: "Lato";
@@ -149,7 +153,22 @@ text-align: left;
   text-align: left;
   font-weight: 300;
  }
-
+.text_about {
+width: 309px;
+padding: 10px 0 5px 0;
+font-size: 1.2rem;
+line-height: 22px;
+color: #767e9e;
+font-family: "Lato";
+font-weight: 400;
+text-align: left;
+}
 .about_links {
   display: inline-flex;
+  justify-content: space-between;
+  width: 153px;
 }
+ .contacts {
+   padding-top: 6px;
+   display: inline-block;
+ }
