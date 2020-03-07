@@ -86,13 +86,6 @@ h1, h3, h4, h5, h6, ul {
 
 }
 
-h1 {
-  display: inline-block;
-  }
-
-  h1:hover {
-    cursor: pointer;
-  }
 input {
   outline:none;
 }
@@ -121,7 +114,7 @@ text-decoration-line: underline;
   display: grid;
 }
 
-.image {
+.image_form {
   margin-right: 13px;
 }
 
@@ -142,21 +135,21 @@ text-decoration-line: underline;
 }
 
 
-.inp:hover, .inp:focus {
+.input:hover, .input:focus {
   cursor: pointer;
   color: #333;
   border-radius: 7px;
   border: solid 1px #333;
 }
 
-.thinking:hover, .thinking:focus {
+.description:hover, .description:focus {
   cursor: pointer;
   color: #333;
   border-radius: 7px;
   border: solid 1px #333;
 }
 
-.links {
+.footer__links {
   display: flex;
   flex-wrap: nowrap;
   width: 153px;
