@@ -34,7 +34,7 @@ body {
   background-color: #2d303a;
   border-bottom: solid 6px #323746;
 }
-.header {
+.portfolio__cap {
   padding-top: 30px;
 }
 
@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   padding: 0;
 }
 
-h1 {
+.logo_port {
   font-family: "Lato";
   line-height: 18px;
   font-size: 3rem;
@@ -53,7 +53,7 @@ h1 {
   text-align: left;
   letter-spacing: -0.03rem;
 }
-.p_header {
+.p_cap {
   padding-top: 27px;
   font-size: 1.8rem;
   color: #767e9e;
@@ -64,12 +64,12 @@ h1 {
   font-weight: 300;
 }
 
-li {
+.portfolio__li {
   margin: 13px 10px 13px 0;
   display: inline-block;
 }
 
-.nav_link {
+.a_port {
   border-radius: 5px;
   border: solid 1px #767e9e;
   padding: 2px 6px 3px 6px;
@@ -84,7 +84,7 @@ li {
 }
 
 
-.nav_link:hover, .nav_link:focus {
+.a_port:hover, .a_port:focus {
   border-color: #fff;
   cursor: pointer;
   color: #fff;
@@ -92,7 +92,7 @@ li {
 }
 
 
-.images {
+.portfolio__images {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 18px;
@@ -102,7 +102,7 @@ li {
   max-height: 621px;
 }
 
-img {
+.img_port {
   padding-top: 10px;
   padding-bottom: 10px;
   display: block;
@@ -114,7 +114,7 @@ img {
   background-color: #f2f2f2;
   border-bottom: solid 6px #ffffff;;
 }
-.three-column-layout {
+.portfolio__three-column-layout {
   margin-left: 20px;
   padding: 43px 21px;
   display: flex;
@@ -123,7 +123,7 @@ img {
 .person_first, .person_second, .person_third {
   width: 33.33%;
 }
-h2 {
+.about_head {
   font-family: "Lato";
   line-height: 18px;
   font-size: 3rem;
@@ -134,7 +134,7 @@ h2 {
   padding: 70px 0 20px 40px;
 }
 
-h3 {
+.name {
 padding-top: 8px;
 font-size: 1.8rem;
 line-height: 18px;
@@ -144,8 +144,7 @@ font-weight: 900;
 text-align: left;
 letter-spacing: -0.15;
 }
-
- .p_description {
+.p_about {
   padding: 8px 40px 30px 40px;
   font-size: 1.8rem;
   color: #767e9e;
@@ -166,12 +165,12 @@ font-family: "Lato";
 font-weight: 400;
 text-align: left;
 }
-.about_links {
+.about__links {
   display: inline-flex;
   justify-content: space-between;
   width: 153px;
 }
- .contacts {
+ .person-contact {
    padding-top: 6px;
    display: inline-block;
    transition-property: border, color;
@@ -179,7 +178,7 @@ text-align: left;
    transition-timing-function: linear;
  }
 
- .contacts:hover, .contacts:focus {
+ .person-contact:hover, .person-contact:focus {
 
    border-style: groove;
    border: 1px  solid #1f2951;
